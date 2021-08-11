@@ -1,4 +1,4 @@
-# **001-Python Excel - Reading Excel with Python Pandas**
+# **001-Reading Excel files with Pandas read_excel()**
 
 Welcome to the Python Excel Series.
 
