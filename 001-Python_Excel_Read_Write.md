@@ -2,7 +2,7 @@
 
 Welcome to the Python Excel Series.
 
-**Video Tutorial:** 
+**Video Tutorial:** https://youtu.be/bI68wnoINwc
 
 #### **Difficulty:** Beginner
 #### **Tags/Keywords:** Python, Excel, Pandas
@@ -121,7 +121,5 @@ print(df['books_2'].head(5))
 https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html
 https://pypi.org/project/xlrd/
 https://pypi.org/project/openpyxl/
-
-#
 https://pythonbasics.org/read-excel/
 https://stackoverflow.com/questions/26047209/what-is-the-difference-between-a-pandas-series-and-a-single-column-dataframe
