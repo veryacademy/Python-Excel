@@ -124,17 +124,18 @@ wb = load_workbook(filename = 'example.xlsx')
 
 sheet = wb['Sheet1']
 
-users = {}
+books = {}
 
 for row in sheet.iter_rows(min_row=2,min_col=1,max_col=3,values_only=True):
-    user_id = row[0]
-    user = {
-        "age": row[1],
-        "name": row[2],
+    book_id = row[0]
+    book = {
+        "title": row[1],
+        "author": row[2],
     }
-    users[user_id] = user
 
-print(json.dumps(users, indent=2))
+    books[book_id] = book
+
+print(json.dumps(books, indent=2))
 
 ```
 
